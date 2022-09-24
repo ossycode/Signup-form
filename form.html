@@ -6,24 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
     <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@700&family=Merriweather&family=Montserrat:wght@100&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather&family=Montserrat:wght@100&family=Roboto+Mono:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">s
+    <div class="left-side">
+        <div class="logo">
+            <h1>JobFis</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="message">
+        <h4> Bringing jobs that offer Sponsorship closer to international students </h4>
+        <h5>Sign up to get all the latest jobs as they go live.</h5>
+        </div>
         <form action="" method="post">
-            <fieldset>
-                <legend> Contact details</legend>
-            </fieldset>
+            
+           <div class="highlight-area">
 
-            <fieldset>
-                <legend>Job Preference</legend>
+            <h2>Lets do this!</h2>
+            <div class="contact-details">
+
+                <div class="input">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name" name="firstName" placeholder="First Name">
+                </div>
                 
-            </fieldset>
+               <div class="input">  
+                <label for="last-name">LAST NAME</label>
+                <input type="text" id="last-name" name="lastName" placeholder="Last Name">
+              </div>
+                
+              <div class="input">
+                <label for="user-email">EMAIL</label>
+                <input type="email" name="email" id="user-email" placeholder="Email">
+                
+              </div>
 
+                 <div class="input">
+                    <label for="phone-numb">PHONE NUMBER</label>
+                    <input type="text" id="phone-number" name="phoneNumber" placeholder="Phone Number">
+                 </div>
 
+                <div class="input">   
+                     <label for="pwd">PASSWORD</label>
+                    <input type="password" name="password" id="pwd" placeholder="Password">
+                </div>
+              
+       <div class="input">
+        <label for="confirm-pwd">CONFIRM PASSWORD</label>
+        <input type="password" name="confirmPassword" id="confirm-pwd" placeholder="Confirm Password">
+     
+       </div>
+            </div>
 
-
+           </div>
+            <div>
+                <button type="submit">Create Account</button>
+            </div>
 
         </form>
+
+        <p class="sign-in">Already have an account? <a href="http://">Log in</a></p>
+       
     </div>
 </body>
 <script src="/scipt.js"></script>
